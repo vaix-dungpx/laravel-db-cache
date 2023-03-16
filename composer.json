@@ -1,0 +1,52 @@
+{
+    "name": "vaix-dungpx/laravel-db-cache",
+    "description": "Forked version of renoki-co/laravel-db-cache to support Laravel 10.",
+    "keywords": [
+        "laravel",
+        "caching",
+        "eloquent",
+        "remember",
+        "query",
+        "sql"
+    ],
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/vaix-dungpx/laravel-db-cache",
+    "authors": [
+        {
+            "name": "Dung PX",
+            "email": "dungpxvaix@gmail.com",
+            "homepage": "https://github.com/vaix-dungpx",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "illuminate/database": "^8.83|^9.35|^10.1",
+        "illuminate/support": "^8.83|^9.35|^10.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rennokki\\QueryCache\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Rennokki\\QueryCache\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "require-dev": {
+        "chelout/laravel-relationship-events": "^1.5|^2.0",
+        "laravel/legacy-factories": "^1.3",
+        "livewire/livewire": "dev-master",
+        "mockery/mockery": "^1.5",
+        "orchestra/testbench": "^6.28|^7.0|^8.0.2",
+        "phpunit/phpunit": "^9.5.25|^10.0.11"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
